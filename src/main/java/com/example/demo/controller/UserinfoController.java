@@ -37,7 +37,7 @@ public class UserinfoController {
 	}
 	
 	@PostMapping(path="/add")
-	public Userinfo insertUser(Userinfo userinfo) {
+	public Userinfo insertUser(@RequestBody Userinfo userinfo) {
 		service.insertUser(userinfo);
 		return userinfo;
 	}

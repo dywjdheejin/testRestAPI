@@ -27,6 +27,7 @@ public class UserinfoServiceImpl implements UserinfoService{
 	
 	@Override
 	public void insertUser(Userinfo userinfo) {
+		
 		dao.insertUser(userinfo);
 	}
 	
