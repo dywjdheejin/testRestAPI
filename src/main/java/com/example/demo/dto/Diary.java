@@ -4,6 +4,8 @@ public class Diary {
 	private String id;
 	private int num;
 	private String content;
+	private String title;
+	private String poster_image;
 	
 	public Diary() {
     	super();
@@ -28,5 +30,19 @@ public class Diary {
     }
     public void setContent(String content) {
     	this.content = content;
+    }
+    
+    public String getTitle() {
+    	return title;
+    }
+    public void setTitle(String title) {
+    	this.title = title;
+    }
+    
+    public String getPoster_image() {
+    	return poster_image;
+    }
+    public void setPoster_image(String poster_image) {
+    	this.poster_image = poster_image;
     }
 }

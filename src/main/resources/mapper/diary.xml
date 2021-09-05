@@ -10,9 +10,9 @@
 	
 	<insert id="insertDiary" parameterType="com.example.demo.dto.Diary" useGeneratedKeys="true">
 		INSERT INTO
-			diary(id, num, content)
+			diary(id, num, content, title, poster_image)
 		VALUES
-			(#{id}, #{num}, #{content})
+			(#{id}, #{num}, #{content}, #{title}, #{poster_image})
 	</insert>
 	
 	<update id="updateDiary" parameterType="com.example.demo.dto.Diary">
