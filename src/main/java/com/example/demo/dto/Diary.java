@@ -6,6 +6,7 @@ public class Diary {
 	private String content;
 	private String title;
 	private String poster_image;
+	private String emotion;
 	
 	public Diary() {
     	super();
@@ -44,5 +45,12 @@ public class Diary {
     }
     public void setPoster_image(String poster_image) {
     	this.poster_image = poster_image;
+    }
+    
+    public String getEmotion() {
+    	return emotion;
+    }
+    public void setEmotion(String emotion) {
+    	this.emotion = emotion;
     }
 }
